@@ -47,7 +47,7 @@ const [isDeleting,setIsDeleting] = useState(false);
             <span className="tagline">Welcome to my Portfolio</span>
             <h1>{`Hi I'm Vihanga, `}<span className="wrap">{text}</span></h1>
             <p>About</p>
-            <button onClick={()=>console.log("connect")}>Let's connect</button>
+            <button onClick={()=>console.log("connect")}>Let's connect<ArrowRightCircle size={25}/></button>
           </Col>
           <Col xs={12} md={6} xl={5}>
               <img src={headerImg} alt="Headder Img" />
